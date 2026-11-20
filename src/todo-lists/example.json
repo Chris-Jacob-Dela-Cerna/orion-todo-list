@@ -2,7 +2,7 @@
   "sortBy": "String: lastModified / dueDate",
   "cards": [
     {
-      "title": "INSERT title",
+      "name": "INSERT title",
       "lastModified": "INSERT modified date",
       "sortBy": "String: lastModified / dueDate / priority",
       "todos": [

@@ -1,11 +1,15 @@
 
 export default class TodoCard {
 
-  constructor({title, lastModified, sortBy, todos}) {
-    this.title = title;
+  constructor({name, lastModified, sortBy, todos}) {
+    this.name = name;
     this.lastModified = lastModified;
     this.sortBy = sortBy;
     this.todos = todos;
   }
 
+
+  setName(newName) {
+    this.name = newName;
+  }
 }
